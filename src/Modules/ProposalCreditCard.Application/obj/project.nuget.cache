@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "pw1d2vht+rRganSJwojybqty2bbwe15KFYlXvrd+ELWvs8+FBoMchRR+4ernHkXxSB0JLpCh/C6ScrYXc2I+bw==",
+  "success": true,
+  "projectFilePath": "/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/ProposalCreditCard.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/marraia/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/easynetq/6.3.1/easynetq.6.3.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/google.protobuf/3.15.6/google.protobuf.3.15.6.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/marraia.mongodb/1.1.1/marraia.mongodb.1.1.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/marraia.queue/1.0.1/marraia.queue.1.0.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.8/microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.8/microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/microsoft.extensions.primitives/3.1.8/microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/mongodb.bson/2.17.1/mongodb.bson.2.17.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/mongodb.driver/2.17.1/mongodb.driver.2.17.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/mongodb.driver.core/2.17.1/mongodb.driver.core.2.17.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/mongodb.libmongocrypt/1.5.5/mongodb.libmongocrypt.1.5.5.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/rabbitmq.client/6.2.1/rabbitmq.client.6.2.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/sharpcompress/0.30.1/sharpcompress.0.30.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/marraia/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

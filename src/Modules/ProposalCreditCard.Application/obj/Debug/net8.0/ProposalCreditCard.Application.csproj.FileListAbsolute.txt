@@ -1,0 +1,15 @@
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/bin/Debug/net8.0/ProposalCreditCard.Application.deps.json
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/bin/Debug/net8.0/ProposalCreditCard.Application.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/bin/Debug/net8.0/ProposalCreditCard.Application.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/bin/Debug/net8.0/ProposalCreditCard.Domain.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/bin/Debug/net8.0/ProposalCreditCard.Domain.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.csproj.AssemblyReference.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.AssemblyInfoInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.AssemblyInfo.cs
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.csproj.CoreCompileInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/Proposal.82C3291E.Up2Date
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/refint/ProposalCreditCard.Application.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ProposalCreditCard.Application.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Application/obj/Debug/net8.0/ref/ProposalCreditCard.Application.dll

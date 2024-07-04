@@ -1,0 +1,12 @@
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/bin/Debug/net8.0/ProposalCreditCard.Domain.deps.json
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/bin/Debug/net8.0/ProposalCreditCard.Domain.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/bin/Debug/net8.0/ProposalCreditCard.Domain.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.csproj.AssemblyReference.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.AssemblyInfoInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.AssemblyInfo.cs
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.csproj.CoreCompileInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/refint/ProposalCreditCard.Domain.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ref/ProposalCreditCard.Domain.dll

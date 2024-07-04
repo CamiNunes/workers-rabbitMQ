@@ -1,0 +1,73 @@
+version: '3.4'
+
+services:
+  creditproposal.worker:
+    image: creditproposalworker:dev
+    container_name: CreditProposal.Worker
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CreditProposal.Worker"
+    environment:
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/CreditProposal.Worker:/app
+      - /Users/marraia/_me/_projects/ProposalCrediCard:/src
+      - /Users/marraia/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/marraia/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net8.0/CreditProposal.Worker.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+  customer.worker:
+    image: customerworker:dev
+    container_name: Customer.Worker
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Customer.Worker"
+    environment:
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/Customer.Worker:/app
+      - /Users/marraia/_me/_projects/ProposalCrediCard:/src
+      - /Users/marraia/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/marraia/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net8.0/Customer.Worker.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true
+
+  requestcredicard.worker:
+    image: requestcredicardworker:dev
+    container_name: RequestCrediCard.Worker
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "RequestCrediCard.Worker"
+    environment:
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/RequestCrediCard.Worker:/app
+      - /Users/marraia/_me/_projects/ProposalCrediCard:/src
+      - /Users/marraia/vsdbg/vs2017u5:/remote_debugger:rw
+      - /Users/marraia/.nuget/packages/:/root/.nuget/packages:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net8.0/RequestCrediCard.Worker.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

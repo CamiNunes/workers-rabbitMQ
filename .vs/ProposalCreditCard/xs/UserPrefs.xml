@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{4AF1992A-E600-44E0-BDF3-DEC4B77C42CC}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Ports.Customer.Worker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Modules/ProposalCreditCard.Domain/Customer.cs">
+    <Files>
+      <File FileName="src/Services/CreditProposal.Worker/Dockerfile" />
+      <File FileName="src/Services/RequestCrediCard.Worker/Dockerfile" />
+      <File FileName="src/Services/Customer.Worker/Worker.cs" Line="57" Column="2" />
+      <File FileName="src/Services/Customer.Worker/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="36" Column="38" />
+      <File FileName="src/Modules/ProposalCreditCard.Domain/Class1.cs" Line="28" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Infrastructure.Repositories/Class1.cs" Line="17" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Domain/ValueObjects/CreditCard.cs" Line="15" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Domain/Repositories/Interfaces/ICustomerRepository.cs" Line="10" Column="1" />
+      <File FileName="../../../../../Applications/Visual Studio.app/Contents/MonoBundle/AddIns/MonoDevelop.Docker/MSbuild/Sdks/Microsoft.Docker.Sdk/build/Microsoft.VisualStudio.Docker.Compose.targets" Line="202" Column="5" />
+      <File FileName="docker-compose.override.yml" Line="18" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Application/UseCase/RegisterCustomer/Interfaces/IRegisterCustomer.cs" Line="11" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Application/UseCase/RegisterCustomer/RegisterCustomerUseCase.cs" Line="71" Column="44" />
+      <File FileName="src/Modules/ProposalCreditCard.Application/UseCase/RegisterCustomer/Event/CustomerEvent.cs" Line="26" Column="3" />
+      <File FileName="src/Services/Customer.Worker/Program.cs" Line="36" Column="1" />
+      <File FileName="src/Services/Customer.Worker/appsettings.Development.json" Line="20" Column="1" />
+      <File FileName="src/Services/Customer.Worker/appsettings.json" Line="20" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Application/UseCase/ProposalValidate/Interfaces/IProposalValidateUseCase.cs" Line="12" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Application/UseCase/ProposalValidate/ProposalValidateUseCase.cs" Line="26" Column="45" />
+      <File FileName="src/Services/CreditProposal.Worker/Worker.cs" Line="1" Column="1" />
+      <File FileName="src/Services/CreditProposal.Worker/Program.cs" Line="1" Column="1" />
+      <File FileName="src/Modules/ProposalCreditCard.Domain/ValueObjects/LogProposalValueObject.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProposalCreditCard" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="ProposalCreditCard.Domain" expanded="True" />
+              <Node name="ProposalCreditCard.Infrastructure.Repositories" expanded="True" />
+            </Node>
+            <Node name="docker-compose" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/Customer.Worker/Worker.cs" relfile="src/Services/Customer.Worker/Worker.cs" line="38" column="1" />
+      <Breakpoint file="/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/Customer.Worker/Worker.cs" relfile="src/Services/Customer.Worker/Worker.cs" line="32" column="1" />
+      <Breakpoint file="/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/Customer.Worker/Program.cs" relfile="src/Services/Customer.Worker/Program.cs" line="17" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

@@ -1,0 +1,62 @@
+name: dockercompose544170042376332167
+services:
+  creditproposal.worker:
+    build:
+      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      dockerfile: src/Services/CreditProposal.Worker/Dockerfile
+    depends_on:
+      nosql.server:
+        condition: service_started
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: creditproposalworker
+    networks:
+      default: null
+  customer.worker:
+    build:
+      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      dockerfile: src/Services/Customer.Worker/Dockerfile
+    depends_on:
+      nosql.server:
+        condition: service_started
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: customerworker
+    networks:
+      default: null
+  nosql.server:
+    image: mongo
+    networks:
+      default: null
+  rabbitmq:
+    environment:
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+      RABBITMQ_DEFAULT_USER: rabbitmq
+    hostname: rabbit-local
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
+    - mode: ingress
+      target: 5672
+      published: "5672"
+      protocol: tcp
+  requestcredicard.worker:
+    build:
+      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      dockerfile: src/Services/RequestCrediCard.Worker/Dockerfile
+    depends_on:
+      nosql.server:
+        condition: service_started
+    environment:
+      DOTNET_ENVIRONMENT: Development
+    image: requestcredicardworker
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose544170042376332167_default

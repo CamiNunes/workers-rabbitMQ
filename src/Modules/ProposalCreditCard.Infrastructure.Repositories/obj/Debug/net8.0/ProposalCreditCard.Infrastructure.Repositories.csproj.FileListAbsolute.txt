@@ -1,0 +1,15 @@
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/bin/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.deps.json
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/bin/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/bin/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/bin/Debug/net8.0/ProposalCreditCard.Domain.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/bin/Debug/net8.0/ProposalCreditCard.Domain.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.csproj.AssemblyReference.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.AssemblyInfoInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.AssemblyInfo.cs
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.csproj.CoreCompileInputs.cache
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/Proposal.744A538E.Up2Date
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/refint/ProposalCreditCard.Infrastructure.Repositories.dll
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ProposalCreditCard.Infrastructure.Repositories.pdb
+/Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Infrastructure.Repositories/obj/Debug/net8.0/ref/ProposalCreditCard.Infrastructure.Repositories.dll

@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  customer.worker:
+    image: customerworker
+    build:
+      context: .
+      dockerfile: src/Services/Customer.Worker/Dockerfile
+    depends_on:
+      - nosql.server
+      - rabbitmq
+
+  creditproposal.worker:
+    image: creditproposalworker
+    build:
+      context: .
+      dockerfile: src/Services/CreditProposal.Worker/Dockerfile
+    depends_on:
+      - nosql.server
+      - rabbitmq
+
+  requestcredicard.worker:
+    image: requestcredicardworker
+    build:
+      context: .
+      dockerfile: src/Services/RequestCrediCard.Worker/Dockerfile
+    depends_on:
+      - nosql.server
+      - rabbitmq
+
+  nosql.server:
+    image: mongo
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    hostname: rabbit-local
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbitmq
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+    ports:
+      - 15672:15672
+      - 5672:5672
+
