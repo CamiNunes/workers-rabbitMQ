@@ -1741,27 +1741,28 @@
     ]
   },
   "packageFolders": {
-    "/Users/marraia/.nuget/packages/": {}
+    "C:\\Users\\Usuário\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/RequestCrediCard.Worker/RequestCrediCard.Worker.csproj",
+      "projectUniqueName": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
       "projectName": "RequestCrediCard.Worker",
-      "projectPath": "/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/RequestCrediCard.Worker/RequestCrediCard.Worker.csproj",
-      "packagesPath": "/Users/marraia/.nuget/packages/",
-      "outputPath": "/Users/marraia/_me/_projects/ProposalCrediCard/src/Services/RequestCrediCard.Worker/obj/",
+      "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
+      "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+      "outputPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/marraia/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/myprofit/_packaging/myprofit/nuget/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -1773,6 +1774,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1800,7 +1806,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

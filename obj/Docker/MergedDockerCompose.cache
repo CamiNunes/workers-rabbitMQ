@@ -1,12 +1,16 @@
-name: dockercompose544170042376332167
+name: dockercompose6468427737071505931
 services:
   creditproposal.worker:
     build:
-      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      context: E:\ProcessoSeletivo\workers-rabbitMQ
       dockerfile: src/Services/CreditProposal.Worker/Dockerfile
     depends_on:
       nosql.server:
         condition: service_started
+        required: true
+      rabbitmq:
+        condition: service_started
+        required: true
     environment:
       DOTNET_ENVIRONMENT: Development
     image: creditproposalworker
@@ -14,11 +18,15 @@ services:
       default: null
   customer.worker:
     build:
-      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      context: E:\ProcessoSeletivo\workers-rabbitMQ
       dockerfile: src/Services/Customer.Worker/Dockerfile
     depends_on:
       nosql.server:
         condition: service_started
+        required: true
+      rabbitmq:
+        condition: service_started
+        required: true
     environment:
       DOTNET_ENVIRONMENT: Development
     image: customerworker
@@ -28,11 +36,16 @@ services:
     image: mongo
     networks:
       default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
   rabbitmq:
     environment:
       RABBITMQ_DEFAULT_PASS: rabbitmq
       RABBITMQ_DEFAULT_USER: rabbitmq
-    hostname: rabbit-local
+    hostname: rabbitmq
     image: rabbitmq:3-management-alpine
     networks:
       default: null
@@ -47,11 +60,15 @@ services:
       protocol: tcp
   requestcredicard.worker:
     build:
-      context: /Users/marraia/_me/_projects/ProposalCrediCard
+      context: E:\ProcessoSeletivo\workers-rabbitMQ
       dockerfile: src/Services/RequestCrediCard.Worker/Dockerfile
     depends_on:
       nosql.server:
         condition: service_started
+        required: true
+      rabbitmq:
+        condition: service_started
+        required: true
     environment:
       DOTNET_ENVIRONMENT: Development
     image: requestcredicardworker
@@ -59,4 +76,4 @@ services:
       default: null
 networks:
   default:
-    name: dockercompose544170042376332167_default
+    name: dockercompose6468427737071505931_default

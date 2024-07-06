@@ -10,3 +10,16 @@
 /Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/refint/ProposalCreditCard.Domain.dll
 /Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ProposalCreditCard.Domain.pdb
 /Users/marraia/_me/_projects/ProposalCrediCard/src/Modules/ProposalCreditCard.Domain/obj/Debug/net8.0/ref/ProposalCreditCard.Domain.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\bin\Debug\net8.0\ProposalCreditCard.Domain.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\bin\Debug\net8.0\ProposalCreditCard.Domain.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\bin\Debug\net8.0\ProposalCreditCard.Domain.pdb
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.csproj.AssemblyReference.cache
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.AssemblyInfoInputs.cache
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.AssemblyInfo.cs
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.csproj.CoreCompileInputs.cache
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.sourcelink.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\refint\ProposalCreditCard.Domain.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ProposalCreditCard.Domain.pdb
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.Domain\obj\Debug\net8.0\ref\ProposalCreditCard.Domain.dll

@@ -33,11 +33,6 @@ public class Worker : BackgroundService
                    .ConfigureAwait(false);
         });
 
-        /*_disposable = _consumer.Start<ProposalSimulationEvent>("messagebus.customersimulation.eventhandler", async (message) =>
-        {
-            var a = message;
-        });*/
-
         return Task.CompletedTask;
     }
 

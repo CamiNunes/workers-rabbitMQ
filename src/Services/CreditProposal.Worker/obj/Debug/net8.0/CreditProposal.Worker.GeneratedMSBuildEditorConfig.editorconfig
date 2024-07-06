@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CreditProposal.Worker
-build_property.ProjectDir = /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/CreditProposal.Worker/
+build_property.ProjectDir = E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
