@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditProposal.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f62329fe84f9b43efada055d7a00a8981fdf12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61a84762a2b4d8d5ccd2c0c895f35832a14c74f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreditProposal.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditProposal.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
