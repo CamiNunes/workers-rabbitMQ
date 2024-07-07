@@ -3,40 +3,16 @@
   "WorkspaceRootPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\usecase\\proposalvalidate\\proposalvalidateusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\usecase\\proposalvalidate\\proposalvalidateusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|solutionrelative:src\\modules\\proposalcreditcard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\utils\\creditcardnumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\utils\\creditcardnumbergenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|solutionrelative:src\\modules\\proposalcreditcard.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\usecase\\registercustomer\\event\\customerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\usecase\\registercustomer\\event\\customerevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\usecase\\requestcreditcard\\interfaces\\irequestcreditcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\usecase\\requestcreditcard\\interfaces\\irequestcreditcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\usecase\\requestcreditcard\\requestcreditcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\usecase\\requestcreditcard\\requestcreditcardusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5FB5018-9369-4B3F-BEA8-20734A461D10}|src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\requestcredicard.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5FB5018-9369-4B3F-BEA8-20734A461D10}|src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj|solutionrelative:src\\services\\requestcredicard.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.application\\usecase\\registercustomer\\registercustomerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0FC971C-4D38-4417-A48D-1CF6038B7C84}|src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj|solutionrelative:src\\modules\\proposalcreditcard.application\\usecase\\registercustomer\\registercustomerusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF1992A-E600-44E0-BDF3-DEC4B77C42CC}|src\\Services\\Customer.Worker\\Customer.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\customer.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AF1992A-E600-44E0-BDF3-DEC4B77C42CC}|src\\Services\\Customer.Worker\\Customer.Worker.csproj|solutionrelative:src\\services\\customer.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\creditproposal.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|solutionrelative:src\\services\\creditproposal.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|solutionrelative:src\\modules\\proposalcreditcard.api\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,125 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 18,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreditCardNumberGenerator.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\Utils\\CreditCardNumberGenerator.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\Utils\\CreditCardNumberGenerator.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\Utils\\CreditCardNumberGenerator.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\Utils\\CreditCardNumberGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:50:18.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerEvent.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\Event\\CustomerEvent.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\Event\\CustomerEvent.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\Event\\CustomerEvent.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\Event\\CustomerEvent.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADgvxsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:48:57.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IRequestCreditCardUseCase.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\Interfaces\\IRequestCreditCardUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\Interfaces\\IRequestCreditCardUseCase.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\Interfaces\\IRequestCreditCardUseCase.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\Interfaces\\IRequestCreditCardUseCase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:48:55.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProposalValidateUseCase.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\ProposalValidate\\ProposalValidateUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\ProposalValidate\\ProposalValidateUseCase.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\ProposalValidate\\ProposalValidateUseCase.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\ProposalValidate\\ProposalValidateUseCase.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:44:40.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterCustomerUseCase.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\RegisterCustomerUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\RegisterCustomerUseCase.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\RegisterCustomerUseCase.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RegisterCustomer\\RegisterCustomerUseCase.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAADwvygAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:38:38.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestCreditCardUseCase.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\RequestCreditCardUseCase.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\RequestCreditCardUseCase.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\RequestCreditCardUseCase.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.Application\\UseCase\\RequestCreditCard\\RequestCreditCardUseCase.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAADgvxQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:37:55.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Services\\RequestCrediCard.Worker\\Worker.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\Worker.cs",
-              "RelativeToolTip": "src\\Services\\RequestCrediCard.Worker\\Worker.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAADgvyIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:31:45.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Services\\CreditProposal.Worker\\Worker.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Worker.cs",
-              "RelativeToolTip": "src\\Services\\CreditProposal.Worker\\Worker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:31:36.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\Customer.Worker\\Worker.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Customer.Worker\\Worker.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\Customer.Worker\\Worker.cs",
-              "RelativeToolTip": "src\\Services\\Customer.Worker\\Worker.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:30:06.936Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -236,6 +95,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.API\\Program.cs",
+              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Program.cs",
+              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvyIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:05:26.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.API\\DTOs\\CustomerDto.cs",
+              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.API\\DTOs\\CustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:01:49.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T16:01:20.883Z",
+              "EditorCaption": ""
             }
           ]
         }
