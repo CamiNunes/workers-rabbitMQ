@@ -15,7 +15,6 @@
     <None Remove="UseCase\ProposalValidate\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UseCase\" />
     <Folder Include="UseCase\RegisterCustomer\" />
     <Folder Include="UseCase\RegisterCustomer\Interfaces\" />
     <Folder Include="UseCase\RegisterCustomer\Event\" />

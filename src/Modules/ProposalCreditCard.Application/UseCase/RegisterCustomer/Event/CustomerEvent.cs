@@ -24,5 +24,13 @@
         public decimal Salary { get; set; }
 		public decimal CreditValue { get; set; }
 	}
+
+    public class ProposalCreditCardEvent
+    {
+        public Guid CustomerId { get; set; }
+        public string Name { get; set; }
+        public decimal LimitValue { get; set; }
+        public string CreditCardNumber { get; set; }
+    }
 }
 
