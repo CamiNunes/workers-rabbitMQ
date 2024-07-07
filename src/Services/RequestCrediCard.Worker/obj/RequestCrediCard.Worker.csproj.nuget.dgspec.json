@@ -4,14 +4,85 @@
     "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj": {}
   },
   "projects": {
-    "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj": {
+    "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
-        "projectName": "RequestCrediCard.Worker",
-        "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
+        "projectUniqueName": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj",
+        "projectName": "ProposalCreditCard.Application",
+        "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\obj\\",
+        "outputPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj": {
+                "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Marraia.Queue": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj",
+        "projectName": "ProposalCreditCard.Domain",
+        "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj",
+        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+        "outputPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +117,81 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Marraia.MongoDb": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
+        "projectName": "RequestCrediCard.Worker",
+        "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\RequestCrediCard.Worker.csproj",
+        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+        "outputPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\RequestCrediCard.Worker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj": {
+                "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Marraia.Queue": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[8.0.0, )"
