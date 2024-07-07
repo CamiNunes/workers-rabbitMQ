@@ -2,6 +2,7 @@
 using Marraia.Queue.Interfaces;
 using ProposalCreditCard.Application.UseCase.ProposalValidate.Interfaces;
 using ProposalCreditCard.Application.UseCase.RegisterCustomer.Event;
+using ProposalCreditCard.Application.Utils;
 
 namespace ProposalCreditCard.Application.UseCase.ProposalValidate
 {
@@ -32,7 +33,7 @@ namespace ProposalCreditCard.Application.UseCase.ProposalValidate
                     Simulation = new ProposalSimulationEvent()
                     {
                         CustomerId = proposalEvent.CustomerId,
-                        Message = "Não foi possivel aprovar o cartão pois a spolicitaçao de crédito é maior que o comprometimento de renda do cliente",
+                        Message = "Não foi possivel aprovar o cartão pois a solicitaçao de crédito é maior que o comprometimento de renda do cliente",
                         Status = "NAOAPROVADO"
                     }
                 };
@@ -44,8 +45,21 @@ namespace ProposalCreditCard.Application.UseCase.ProposalValidate
                 return;
             }
 
-
             //TODO: Envar para a fila de criaçao de cartao de credito...
+
+            var creditCardNumber = CreditCardNumberGenerator.GenerateCreditCardNumber();
+
+            var proposalCreditCardEvent = new ProposalCreditCardEvent
+            {
+                CustomerId = proposalEvent.CustomerId,
+                Name = proposalEvent.Name,
+                LimitValue = proposalEvent.CreditValue,
+                CreditCardNumber = creditCardNumber
+            };
+
+            await _eventBus
+                    .PublishAsync(proposalCreditCardEvent, "messagebus.proposalCreditCard.eventhandler")
+                    .ConfigureAwait(false);
 
         }
     }

@@ -1,5 +1,7 @@
 ﻿using Marraia.Queue;
 using Marraia.Queue.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
+using ProposalCreditCard.Application.UseCase.ProposalValidate.Interfaces;
 using ProposalCreditCard.Application.UseCase.RegisterCustomer.Event;
 using ProposalCreditCard.Application.UseCase.RequestCreditCard.Interfaces;
 
@@ -10,6 +12,7 @@ public class Worker : BackgroundService
     private readonly ILogger<Worker> _logger;
     private readonly IEventBus _eventBus;
     private readonly Consumer _consumer;
+    private readonly IServiceScopeFactory _serviceScope;
     private readonly IRequestCreditCardUseCase _requestCreditCardUseCase;
     private readonly IConfiguration _configuration;
     private IDisposable _disposable;
@@ -17,6 +20,7 @@ public class Worker : BackgroundService
     public Worker(ILogger<Worker> logger,
                   IEventBus eventBus,
                   Consumer consumer,
+                  IServiceScopeFactory serviceScope,
                   IRequestCreditCardUseCase requestCreditCardUseCase,
                   IConfiguration configuration)
     {
@@ -40,7 +44,15 @@ public class Worker : BackgroundService
     {
         try
         {
-            await _requestCreditCardUseCase.ProcessCreditCardRequestAsync(message).ConfigureAwait(false);
+            await using (var scope = _serviceScope.CreateAsyncScope())
+            {
+                var service = scope
+                                .ServiceProvider
+                                .GetRequiredService<IRequestCreditCardUseCase>();
+                await service
+                        .ProcessCreditCardRequestAsync(message)
+                        .ConfigureAwait(false);
+            }
         }
         catch (Exception ex)
         {
@@ -48,4 +60,3 @@ public class Worker : BackgroundService
         }
     }
 }
-

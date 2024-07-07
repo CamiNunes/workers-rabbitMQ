@@ -1,6 +1,7 @@
 ﻿using Marraia.Queue.Interfaces;
 using ProposalCreditCard.Application.UseCase.RegisterCustomer.Event;
 using ProposalCreditCard.Application.UseCase.RegisterCustomer.Interfaces;
+using ProposalCreditCard.Application.Utils;
 using ProposalCreditCard.Domain;
 using ProposalCreditCard.Domain.Repositories.Interfaces;
 
@@ -32,13 +33,17 @@ namespace ProposalCreditCard.Application.UseCase.RegisterCustomer
 
         private async Task RegisterCustomerAsync(CustomerEvent eventCustomer)
         {
+            var validationResult = ValidateCustomerEvent(eventCustomer);
+            if (!validationResult.IsValid)
+            {
+                throw new ArgumentException(validationResult.ErrorMessage);
+            }
+
             var customer = new Customer()
             {
                 Name = eventCustomer.Name,
                 Salary = eventCustomer.Salary
             };
-
-            //TODO: Pode validar se os dados vieram com valores...
 
             await _customerRepository
                      .InsertAsync(customer)
@@ -55,6 +60,26 @@ namespace ProposalCreditCard.Application.UseCase.RegisterCustomer
             await _eventBus
                     .PublishAsync(eventProposal, "messagebus.proposal.eventhandler")
                     .ConfigureAwait(false);
+        }
+
+        private ValidationResult ValidateCustomerEvent(CustomerEvent eventCustomer)
+        {
+            if (string.IsNullOrEmpty(eventCustomer.Name))
+            {
+                return new ValidationResult { IsValid = false, ErrorMessage = "Nome do cliente é obrigatório." };
+            }
+
+            if (eventCustomer.Salary <= 0)
+            {
+                return new ValidationResult { IsValid = false, ErrorMessage = "Salário do cliente deve ser maior que zero." };
+            }
+
+            if (eventCustomer.CreditValue <= 0)
+            {
+                return new ValidationResult { IsValid = false, ErrorMessage = "Valor de crédito deve ser maior que zero." };
+            }
+
+            return new ValidationResult { IsValid = true };
         }
 
         private async Task SimulationProposalAsync(CustomerEvent eventCustomer)

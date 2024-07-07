@@ -1,6 +1,8 @@
 ﻿using Marraia.Queue;
+using Microsoft.Extensions.DependencyInjection;
 using ProposalCreditCard.Application.UseCase.ProposalValidate.Interfaces;
 using ProposalCreditCard.Application.UseCase.RegisterCustomer.Event;
+using ProposalCreditCard.Application.UseCase.RegisterCustomer.Interfaces;
 
 namespace CreditProposal.Worker;
 
@@ -10,10 +12,12 @@ public class Worker : BackgroundService
     private readonly Consumer _consumer;
     private readonly IProposalValidateUseCase _proposalValidateUseCase;
     private readonly IConfiguration _configuration;
+    private readonly IServiceScopeFactory _serviceScope;
     private IDisposable _disposable;
 
     public Worker(ILogger<Worker> logger,
                       IConfiguration configuration,
+                      IServiceScopeFactory serviceScope,
                       IProposalValidateUseCase proposalValidateUseCase,
                       Consumer consumer)
     {
@@ -29,7 +33,6 @@ public class Worker : BackgroundService
         {
             await ProcessProposalAsync(message).ConfigureAwait(false);
         });
-
         return Task.CompletedTask;
     }
 
@@ -37,7 +40,15 @@ public class Worker : BackgroundService
     {
         try
         {
-            await _proposalValidateUseCase.ProposalValidateAsync(message).ConfigureAwait(false);
+            await using (var scope = _serviceScope.CreateAsyncScope())
+            {
+                var service = scope
+                                .ServiceProvider
+                                .GetRequiredService<IProposalValidateUseCase>();
+                await service
+                        .ProposalValidateAsync(message)
+                        .ConfigureAwait(false);
+            }
         }
         catch (Exception ex)
         {

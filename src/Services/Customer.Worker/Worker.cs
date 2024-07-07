@@ -38,16 +38,22 @@ public class Worker : BackgroundService
 
     private async Task ProcessRegisterAsync(CustomerEvent message)
     {
-        await using (var scope = _serviceScope.CreateAsyncScope())
+        try
         {
-            var service = scope
-                            .ServiceProvider
-                            .GetRequiredService<IRegisterCustomerUseCase>();
-            await service
-                    .ProcessEventCustomerAsync(message)
-                    .ConfigureAwait(false);
+            await using (var scope = _serviceScope.CreateAsyncScope())
+            {
+                var service = scope
+                                .ServiceProvider
+                                .GetRequiredService<IRegisterCustomerUseCase>();
+                await service
+                        .ProcessEventCustomerAsync(message)
+                        .ConfigureAwait(false);
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Erro ao processar proposta.");
         }
     }
-
 }
 
