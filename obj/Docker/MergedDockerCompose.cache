@@ -45,7 +45,6 @@ services:
     environment:
       RABBITMQ_DEFAULT_PASS: rabbitmq
       RABBITMQ_DEFAULT_USER: rabbitmq
-    hostname: rabbitmq
     image: rabbitmq:3-management-alpine
     networks:
       default: null
