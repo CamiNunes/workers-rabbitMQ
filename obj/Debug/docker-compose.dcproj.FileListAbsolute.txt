@@ -81,12 +81,12 @@ E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\RequestCrediCard.Worker.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Hosting.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
-E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Configuration.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Marraia.Queue.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\ProposalCreditCard.Application.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Configuration.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Marraia.MongoDb.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\ProposalCreditCard.Domain.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\ProposalCreditCard.Infrastructure.Repositories.dll
@@ -107,10 +107,10 @@ E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.Conf
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.Console.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Logging.EventSource.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Primitives.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\EasyNetQ.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Google.Protobuf.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Newtonsoft.Json.dll
-E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.Primitives.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\MongoDB.Driver.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\MongoDB.Driver.Core.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
