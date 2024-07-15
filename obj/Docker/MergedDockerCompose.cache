@@ -2,10 +2,10 @@ name: dockercompose6468427737071505931
 services:
   creditproposal.worker:
     build:
-      context: E:\ProcessoSeletivo\workers-rabbitMQ
-      dockerfile: src/Services/CreditProposal.Worker/Dockerfile
+      context: E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker
+      dockerfile: Dockerfile
     depends_on:
-      nosql.server:
+      mongodb:
         condition: service_started
         required: true
       rabbitmq:
@@ -13,15 +13,14 @@ services:
         required: true
     environment:
       DOTNET_ENVIRONMENT: Development
-    image: creditproposalworker
     networks:
-      default: null
+      proposal-network: null
   customer.worker:
     build:
-      context: E:\ProcessoSeletivo\workers-rabbitMQ
-      dockerfile: src/Services/Customer.Worker/Dockerfile
+      context: E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker
+      dockerfile: Dockerfile
     depends_on:
-      nosql.server:
+      mongodb:
         condition: service_started
         required: true
       rabbitmq:
@@ -29,41 +28,57 @@ services:
         required: true
     environment:
       DOTNET_ENVIRONMENT: Development
-    image: customerworker
     networks:
-      default: null
-  nosql.server:
+      proposal-network: null
+  mongodb:
+    container_name: mongodb
     image: mongo
     networks:
-      default: null
+      proposal-network: null
     ports:
     - mode: ingress
       target: 27017
       published: "27017"
       protocol: tcp
-  rabbitmq:
-    environment:
-      RABBITMQ_DEFAULT_PASS: rabbitmq
-      RABBITMQ_DEFAULT_USER: rabbitmq
-    hostname: rabbitmq
-    image: rabbitmq:3-management-alpine
+    restart: always
+  proposalcreditcard.api:
+    build:
+      context: E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.API
+      dockerfile: Dockerfile
+    depends_on:
+      mongodb:
+        condition: service_started
+        required: true
+      rabbitmq:
+        condition: service_started
+        required: true
     networks:
-      default: null
+      proposal-network: null
     ports:
     - mode: ingress
-      target: 15672
-      published: "15672"
+      target: 80
+      published: "5000"
       protocol: tcp
+  rabbitmq:
+    hostname: rabbitmq
+    image: rabbitmq:3-management
+    networks:
+      proposal-network: null
+    ports:
     - mode: ingress
       target: 5672
       published: "5672"
       protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: "15672"
+      protocol: tcp
   requestcredicard.worker:
     build:
-      context: E:\ProcessoSeletivo\workers-rabbitMQ
-      dockerfile: src/Services/RequestCrediCard.Worker/Dockerfile
+      context: E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker
+      dockerfile: Dockerfile
     depends_on:
-      nosql.server:
+      mongodb:
         condition: service_started
         required: true
       rabbitmq:
@@ -71,9 +86,8 @@ services:
         required: true
     environment:
       DOTNET_ENVIRONMENT: Development
-    image: requestcredicardworker
     networks:
-      default: null
+      proposal-network: null
 networks:
-  default:
-    name: dockercompose6468427737071505931_default
+  proposal-network:
+    name: dockercompose6468427737071505931_proposal-network

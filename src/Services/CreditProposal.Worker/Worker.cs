@@ -9,17 +9,16 @@ namespace CreditProposal.Worker;
 public class Worker : BackgroundService
 {
     private readonly ILogger<Worker> _logger;
-    private readonly Consumer _consumer;
     private readonly IProposalValidateUseCase _proposalValidateUseCase;
     private readonly IConfiguration _configuration;
-    private readonly IServiceScopeFactory _serviceScope;
-    private IDisposable _disposable;
+    private readonly IServiceScopeFactory? _serviceScope;
+    private IDisposable? _disposable;
+    private Consumer _consumer;
 
     public Worker(ILogger<Worker> logger,
-                      IConfiguration configuration,
-                      IServiceScopeFactory serviceScope,
-                      IProposalValidateUseCase proposalValidateUseCase,
-                      Consumer consumer)
+                  IConfiguration configuration,
+                  IProposalValidateUseCase proposalValidateUseCase,
+                  Consumer consumer)
     {
         _logger = logger;
         _configuration = configuration;
@@ -37,8 +36,10 @@ public class Worker : BackgroundService
     }
 
     private async Task ProcessProposalAsync(ProposalEvent message)
+{
+    try
     {
-        try
+        if (_serviceScope != null)
         {
             await using (var scope = _serviceScope.CreateAsyncScope())
             {
@@ -50,10 +51,18 @@ public class Worker : BackgroundService
                         .ConfigureAwait(false);
             }
         }
-        catch (Exception ex)
+        else
         {
-            _logger.LogError(ex, "Erro ao processar proposta.");
+            // Handle the case where _serviceScope is unexpectedly null.
+            // This could be logging an error or taking appropriate action.
+            _logger.LogError("Service scope factory (_serviceScope) is unexpectedly null.");
         }
     }
+    catch (Exception ex)
+    {
+        _logger.LogError(ex, "Erro ao processar proposta.");
+    }
+}
+
 }
 

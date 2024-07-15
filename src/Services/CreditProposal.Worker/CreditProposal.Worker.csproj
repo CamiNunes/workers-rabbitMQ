@@ -15,5 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\ProposalCreditCard.Application\ProposalCreditCard.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\ProposalCreditCard.Domain\ProposalCreditCard.Domain.csproj" />
   </ItemGroup>
 </Project>

@@ -18,16 +18,18 @@ public class Worker : BackgroundService
     private IDisposable _disposable;
 
     public Worker(ILogger<Worker> logger,
-                  IEventBus eventBus,
-                  Consumer consumer,
-                  IServiceScopeFactory serviceScope,
-                  IRequestCreditCardUseCase requestCreditCardUseCase,
-                  IConfiguration configuration)
+              IEventBus eventBus,
+              Consumer consumer,
+              IServiceScopeFactory serviceScope,
+              IRequestCreditCardUseCase requestCreditCardUseCase,
+              IConfiguration configuration)
     {
-        _logger = logger;
-        _eventBus = eventBus;
-        _consumer = consumer;
-        _configuration = configuration;
+        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+        _eventBus = eventBus ?? throw new ArgumentNullException(nameof(eventBus));
+        _consumer = consumer ?? throw new ArgumentNullException(nameof(consumer));
+        _serviceScope = serviceScope ?? throw new ArgumentNullException(nameof(serviceScope));
+        _requestCreditCardUseCase = requestCreditCardUseCase ?? throw new ArgumentNullException(nameof(requestCreditCardUseCase));
+        _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
     }
 
     protected override Task ExecuteAsync(CancellationToken stoppingToken)

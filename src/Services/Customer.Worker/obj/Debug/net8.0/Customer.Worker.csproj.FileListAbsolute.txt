@@ -76,6 +76,13 @@
 /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/Customer.Worker/obj/Debug/net8.0/ref/Customer.Worker.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\appsettings.Development.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\Customer.Worker.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\Customer.Worker.runtimeconfig.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Domain.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Infrastructure.Repositories.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\Customer.Worker.exe
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\Customer.Worker.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\Customer.Worker.runtimeconfig.json

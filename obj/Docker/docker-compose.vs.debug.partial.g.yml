@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.8'
 
 services:
   creditproposal.worker:
@@ -7,7 +7,7 @@ services:
     build:
       args:
         BUILD_CONFIGURATION: Debug
-      target: base
+      target: build
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "CreditProposal.Worker"
@@ -15,7 +15,7 @@ services:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
       - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker:/app:rw
-      - E:\ProcessoSeletivo\workers-rabbitMQ:/src:rw
+      - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker:/src:rw
       - C:\Users\Usuário\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Usuário\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Usuário\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
@@ -36,7 +36,7 @@ services:
     build:
       args:
         BUILD_CONFIGURATION: Debug
-      target: base
+      target: build
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "Customer.Worker"
@@ -44,7 +44,7 @@ services:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
       - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker:/app:rw
-      - E:\ProcessoSeletivo\workers-rabbitMQ:/src:rw
+      - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker:/src:rw
       - C:\Users\Usuário\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Usuário\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Usuário\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
@@ -60,13 +60,47 @@ services:
       com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
 
+  proposalcreditcard.api:
+    image: proposalcreditcardapi:dev
+    container_name: "ProposalCreditCard.API"
+    build:
+      args:
+        BUILD_CONFIGURATION: Debug
+      target: build
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ProposalCreditCard.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.API:/app:rw
+      - E:\ProcessoSeletivo\workers-rabbitMQ\src\Modules\ProposalCreditCard.API:/src:rw
+      - C:\Users\Usuário\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\Usuário\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\Usuário\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+      - C:\Users\Usuário\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+      - C:\Users\Usuário\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\Usuário\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0:/VSTools:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
+
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net8.0/ProposalCreditCard.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
+    tty: true
+
   requestcredicard.worker:
     image: requestcredicardworker:dev
     container_name: "RequestCrediCard.Worker"
     build:
       args:
         BUILD_CONFIGURATION: Debug
-      target: base
+      target: build
       labels:
         com.microsoft.created-by: "visual-studio"
         com.microsoft.visual-studio.project-name: "RequestCrediCard.Worker"
@@ -74,7 +108,7 @@ services:
       - NUGET_FALLBACK_PACKAGES=
     volumes:
       - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker:/app:rw
-      - E:\ProcessoSeletivo\workers-rabbitMQ:/src:rw
+      - E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker:/src:rw
       - C:\Users\Usuário\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Usuário\.nuget\packages:/.nuget/packages:ro
       - C:\Users\Usuário\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro

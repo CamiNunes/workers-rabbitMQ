@@ -2694,7 +2694,8 @@
     "net8.0": [
       "Marraia.Queue >= 1.0.1",
       "Microsoft.Extensions.Hosting >= 8.0.0",
-      "ProposalCreditCard.Application >= 1.0.0"
+      "ProposalCreditCard.Application >= 1.0.0",
+      "ProposalCreditCard.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2727,6 +2728,9 @@
           "projectReferences": {
             "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj": {
               "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Application\\ProposalCreditCard.Application.csproj"
+            },
+            "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj": {
+              "projectPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.Domain\\ProposalCreditCard.Domain.csproj"
             }
           }
         }
@@ -2771,7 +2775,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

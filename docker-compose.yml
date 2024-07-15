@@ -1,44 +1,66 @@
-version: '3.4'
+version: '3.8'
 
 services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - proposal-network
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - proposal-network
+
   customer.worker:
-    image: customerworker
     build:
-      context: .
-      dockerfile: src/Services/Customer.Worker/Dockerfile
+      context: ./src/Services/Customer.Worker
+      dockerfile: Dockerfile
     depends_on:
-      - nosql.server
       - rabbitmq
+      - mongodb
+    networks:
+      - proposal-network
 
   creditproposal.worker:
-    image: creditproposalworker
     build:
-      context: .
-      dockerfile: src/Services/CreditProposal.Worker/Dockerfile
+      context: ./src/Services/CreditProposal.Worker
+      dockerfile: Dockerfile
     depends_on:
-      - nosql.server
       - rabbitmq
+      - mongodb
+    networks:
+      - proposal-network
 
   requestcredicard.worker:
-    image: requestcredicardworker
     build:
-      context: .
-      dockerfile: src/Services/RequestCrediCard.Worker/Dockerfile
+      context: ./src/Services/RequestCrediCard.Worker
+      dockerfile: Dockerfile
     depends_on:
-      - nosql.server
       - rabbitmq
+      - mongodb
+    networks:
+      - proposal-network
 
-  nosql.server:
-    image: mongo
+  proposalcreditcard.api:
+    build:
+      context: ./src/Modules/ProposalCreditCard.API
+      dockerfile: Dockerfile
     ports:
-      - 27017:27017
+      - "5000:80"
+    depends_on:
+      - rabbitmq
+      - mongodb
+    networks:
+      - proposal-network
 
-  rabbitmq:
-    image: rabbitmq:3-management-alpine
-    hostname: rabbitmq
-    environment:
-      RABBITMQ_DEFAULT_USER: rabbitmq
-      RABBITMQ_DEFAULT_PASS: rabbitmq
-    ports:
-      - 15672:15672
-      - 5672:5672
+networks:
+  proposal-network:
+   

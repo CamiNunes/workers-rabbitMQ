@@ -1,20 +1,19 @@
-# See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/runtime:8.0-preview AS base
+# Stage 1: Build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-FROM mcr.microsoft.com/dotnet/sdk:8.0-preview AS build
-WORKDIR /src
-COPY ["src/Services/Customer.Worker/Customer.Worker.csproj", "src/Services/Customer.Worker/"]
-RUN dotnet restore "src/Services/Customer.Worker/Customer.Worker.csproj"
+# Copy csproj and restore as distinct layers
+COPY Customer.Worker.csproj .
+RUN dotnet restore
+
+# Copy everything else and build
 COPY . .
-WORKDIR "/src/src/Services/Customer.Worker"
-RUN dotnet build "Customer.Worker.csproj" -c Release -o /app/build
+RUN dotnet publish -c Release -o out
 
-FROM build AS publish
-RUN dotnet publish "Customer.Worker.csproj" -c Release -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
+# Stage 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=build /app/out ./
+
+# Start the application
 ENTRYPOINT ["dotnet", "Customer.Worker.dll"]

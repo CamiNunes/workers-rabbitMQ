@@ -48,6 +48,12 @@
 /Users/marraia/_me/_projects/ProposalCrediCard/src/Services/CreditProposal.Worker/obj/Debug/net8.0/ref/CreditProposal.Worker.dll
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\appsettings.Development.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\CreditProposal.Worker.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\CreditProposal.Worker.runtimeconfig.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Domain.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\CreditProposal.Worker.exe
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\CreditProposal.Worker.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\CreditProposal.Worker.runtimeconfig.json

@@ -12,7 +12,10 @@ builder.Services.AddSingleton<IEventBus>(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();
     var connectionString = configuration.GetSection("RabbitMq:Connection").Value;
-    return new EventBus(connectionString, "", "");
+    var exchangeName = configuration.GetSection("RabbitMq:ExchangeName").Value;
+    var exchangeType = configuration.GetSection("RabbitMq:ExchangeType").Value;
+
+    return new EventBus(connectionString, exchangeName, exchangeType);
 });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

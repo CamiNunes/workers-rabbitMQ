@@ -11,6 +11,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
     <PackageReference Include="Marraia.Queue" Version="1.0.1" />
+    <ProjectReference Include="..\..\Modules\ProposalCreditCard.Application\ProposalCreditCard.Application.csproj" />
+    <ProjectReference Include="..\..\Modules\ProposalCreditCard.Infrastructure.Repositories\ProposalCreditCard.Infrastructure.Repositories.csproj" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\ProposalCreditCard.Application\ProposalCreditCard.Application.csproj">

@@ -1,1 +1,1 @@
-[{"SourcePath":"E:\\ProcessoSeletivo\\workers-rabbitMQ","TargetPath":"/src","ReadOnly":false},{"SourcePath":"C:\\Users\\Usuário\\.nuget\\packages","TargetPath":"/.nuget/packages","ReadOnly":true}]
+[{"SourcePath":"E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker","TargetPath":"/src","ReadOnly":false},{"SourcePath":"C:\\Users\\Usuário\\.nuget\\packages","TargetPath":"/.nuget/packages","ReadOnly":true}]

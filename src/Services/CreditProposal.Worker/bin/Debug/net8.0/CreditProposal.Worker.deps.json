@@ -10,7 +10,8 @@
         "dependencies": {
           "Marraia.Queue": "1.0.1",
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "ProposalCreditCard.Application": "1.0.0"
+          "ProposalCreditCard.Application": "1.0.0",
+          "ProposalCreditCard.Domain": "1.0.0"
         },
         "runtime": {
           "CreditProposal.Worker.dll": {}
