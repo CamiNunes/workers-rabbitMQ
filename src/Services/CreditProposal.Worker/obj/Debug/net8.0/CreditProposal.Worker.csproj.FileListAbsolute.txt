@@ -127,3 +127,9 @@ E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\obj\Debu
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\obj\Debug\net8.0\CreditProposal.Worker.pdb
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\obj\Debug\net8.0\CreditProposal.Worker.genruntimeconfig.cache
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\obj\Debug\net8.0\ref\CreditProposal.Worker.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\CreditProposal.Worker.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\CreditProposal.Worker.runtimeconfig.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\CreditProposal.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Domain.deps.json

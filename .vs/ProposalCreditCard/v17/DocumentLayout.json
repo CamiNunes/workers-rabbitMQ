@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|solutionrelative:src\\modules\\proposalcreditcard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\modules\\proposalcreditcard.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BE6CD62C-31B1-4EB4-89AB-C3E938C41FBA}|src\\Modules\\ProposalCreditCard.API\\ProposalCreditCard.API.csproj|solutionrelative:src\\modules\\proposalcreditcard.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\creditproposal.worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|solutionrelative:src\\services\\creditproposal.worker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\creditproposal.worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|solutionrelative:src\\services\\creditproposal.worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|e:\\processoseletivo\\workers-rabbitmq\\src\\services\\creditproposal.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E836EF9-5315-48FD-BA14-764E91037E3B}|src\\Services\\CreditProposal.Worker\\CreditProposal.Worker.csproj|solutionrelative:src\\services\\creditproposal.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,52 +92,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.API\\Program.cs",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\Program.cs",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABEAAAA",
+              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\CreditProposal.Worker\\Program.cs",
+              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Program.cs",
+              "RelativeToolTip": "src\\Services\\CreditProposal.Worker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T23:55:37.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Services\\CreditProposal.Worker\\appsettings.Development.json",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Services\\CreditProposal.Worker\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-14T23:55:01.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Modules\\ProposalCreditCard.API\\appsettings.Development.json",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Modules\\ProposalCreditCard.API\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Modules\\ProposalCreditCard.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-14T23:54:17.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\Services\\CreditProposal.Worker\\Dockerfile",
-              "ToolTip": "E:\\ProcessoSeletivo\\workers-rabbitMQ\\src\\Services\\CreditProposal.Worker\\Dockerfile",
-              "RelativeToolTip": "src\\Services\\CreditProposal.Worker\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-13T03:21:28.291Z",
+              "WhenOpened": "2024-07-15T00:35:35.15Z",
               "EditorCaption": ""
             }
           ]

@@ -50,6 +50,11 @@ E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\De
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\appsettings.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\appsettings.Development.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Domain.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\RequestCrediCard.Worker.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Application.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\ProposalCreditCard.Domain.deps.json
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\RequestCrediCard.Worker.deps.json
@@ -127,3 +132,9 @@ E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\obj\De
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\obj\Debug\net8.0\RequestCrediCard.Worker.pdb
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\obj\Debug\net8.0\RequestCrediCard.Worker.genruntimeconfig.cache
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\obj\Debug\net8.0\ref\RequestCrediCard.Worker.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\out\ProposalCreditCard.Domain.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\out\RequestCrediCard.Worker.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\RequestCrediCard.Worker\bin\Debug\net8.0\out\out\RequestCrediCard.Worker.runtimeconfig.json

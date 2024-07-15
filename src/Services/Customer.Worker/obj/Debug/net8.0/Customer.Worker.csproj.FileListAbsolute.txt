@@ -158,3 +158,10 @@ E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\obj\Debug\net8
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\obj\Debug\net8.0\Customer.Worker.pdb
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\obj\Debug\net8.0\Customer.Worker.genruntimeconfig.cache
 E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\obj\Debug\net8.0\ref\Customer.Worker.dll
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\appsettings.Development.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\appsettings.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\Customer.Worker.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\Customer.Worker.runtimeconfig.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Application.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Domain.deps.json
+E:\ProcessoSeletivo\workers-rabbitMQ\src\Services\Customer.Worker\bin\Debug\net8.0\out\out\ProposalCreditCard.Infrastructure.Repositories.deps.json
